@@ -1,0 +1,22 @@
+{
+  "author": "Cheng-Lung Sung <clsung@gmail.com> (http://dev.clsung.tw/)",
+  "name": "plurkjs",
+  "description": "NodeJS demo for Plurk",
+  "version": "0.0.2",
+  "homepage": "https://github.com/clsung/plurkjs/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/clsung/plurkjs.git"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "dependencies": {
+    "oauth" : "0.9.x",
+    "redis" : "0.6.x",
+  },
+  "main" : "./lib/plurk",
+  "engines": {
+    "node": "*"
+  }
+}
